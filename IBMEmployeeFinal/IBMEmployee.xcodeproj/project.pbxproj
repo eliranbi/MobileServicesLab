@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A598B29C395F6BD7E9A0915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 535C06A69026BADDBFD4F88D /* libPods.a */; };
+		B82A9CA91BFA5B5D00C736D4 /* white-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CA81BFA5B5D00C736D4 /* white-background.png */; };
+		B82A9CAF1BFA7A2A00C736D4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B82A9CAE1BFA7A2A00C736D4 /* data.json */; };
+		B82A9CB21BFA911100C736D4 /* EmployeeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */; };
+		B885F8BD1BFA4D7600F89335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BC1BFA4D7600F89335 /* main.m */; };
+		B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8BF1BFA4D7600F89335 /* AppDelegate.m */; };
+		B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B885F8C21BFA4D7600F89335 /* ViewController.m */; };
+		B885F8C61BFA4D7600F89335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B885F8C41BFA4D7600F89335 /* Main.storyboard */; };
+		B885F8C91BFA4D7600F89335 /* IBMEmployee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B885F8C71BFA4D7600F89335 /* IBMEmployee.xcdatamodeld */; };
+		B885F8CB1BFA4D7600F89335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B885F8CA1BFA4D7600F89335 /* Assets.xcassets */; };
+		B885F8CE1BFA4D7600F89335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B885F8CC1BFA4D7600F89335 /* LaunchScreen.storyboard */; };
+		B885F8D61BFA4F1B00F89335 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = B885F8D51BFA4F1B00F89335 /* splash.png */; };
+		B885F8D81BFA510000F89335 /* login-ibm-watson.png in Resources */ = {isa = PBXBuildFile; fileRef = B885F8D71BFA510000F89335 /* login-ibm-watson.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		465775417B57F997B96E1FF5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		535C06A69026BADDBFD4F88D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82A9CA81BFA5B5D00C736D4 /* white-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-background.png"; sourceTree = "<group>"; };
+		B82A9CAE1BFA7A2A00C736D4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B82A9CB01BFA911100C736D4 /* EmployeeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListTableViewController.h; sourceTree = "<group>"; };
+		B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListTableViewController.m; sourceTree = "<group>"; };
+		B885F8B81BFA4D7500F89335 /* IBMEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBMEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B885F8BC1BFA4D7600F89335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B885F8BE1BFA4D7600F89335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B885F8BF1BFA4D7600F89335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B885F8C11BFA4D7600F89335 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B885F8C21BFA4D7600F89335 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B885F8C51BFA4D7600F89335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B885F8C81BFA4D7600F89335 /* IBMEmployee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IBMEmployee.xcdatamodel; sourceTree = "<group>"; };
+		B885F8CA1BFA4D7600F89335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B885F8CD1BFA4D7600F89335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B885F8CF1BFA4D7600F89335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B885F8D51BFA4F1B00F89335 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		B885F8D71BFA510000F89335 /* login-ibm-watson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-ibm-watson.png"; sourceTree = "<group>"; };
+		E4340E0D77E41E0F8D23DB47 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B885F8B51BFA4D7500F89335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A598B29C395F6BD7E9A0915 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B885F8AF1BFA4D7500F89335 = {
+			isa = PBXGroup;
+			children = (
+				B885F8BA1BFA4D7500F89335 /* IBMEmployee */,
+				B885F8B91BFA4D7500F89335 /* Products */,
+				ECA96829B8172B3A3A848B58 /* Pods */,
+				F2EE6AC2292A410CDCFF3EC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B885F8B91BFA4D7500F89335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B885F8B81BFA4D7500F89335 /* IBMEmployee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B885F8BA1BFA4D7500F89335 /* IBMEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				B82A9CB01BFA911100C736D4 /* EmployeeListTableViewController.h */,
+				B82A9CB11BFA911100C736D4 /* EmployeeListTableViewController.m */,
+				B885F8D71BFA510000F89335 /* login-ibm-watson.png */,
+				B885F8BE1BFA4D7600F89335 /* AppDelegate.h */,
+				B885F8BF1BFA4D7600F89335 /* AppDelegate.m */,
+				B885F8C11BFA4D7600F89335 /* ViewController.h */,
+				B885F8C21BFA4D7600F89335 /* ViewController.m */,
+				B885F8C41BFA4D7600F89335 /* Main.storyboard */,
+				B82A9CA81BFA5B5D00C736D4 /* white-background.png */,
+				B885F8CA1BFA4D7600F89335 /* Assets.xcassets */,
+				B885F8CC1BFA4D7600F89335 /* LaunchScreen.storyboard */,
+				B885F8CF1BFA4D7600F89335 /* Info.plist */,
+				B885F8C71BFA4D7600F89335 /* IBMEmployee.xcdatamodeld */,
+				B885F8BB1BFA4D7600F89335 /* Supporting Files */,
+				B82A9CAE1BFA7A2A00C736D4 /* data.json */,
+			);
+			path = IBMEmployee;
+			sourceTree = "<group>";
+		};
+		B885F8BB1BFA4D7600F89335 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B885F8D51BFA4F1B00F89335 /* splash.png */,
+				B885F8BC1BFA4D7600F89335 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA96829B8172B3A3A848B58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				465775417B57F997B96E1FF5 /* Pods.debug.xcconfig */,
+				E4340E0D77E41E0F8D23DB47 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2EE6AC2292A410CDCFF3EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				535C06A69026BADDBFD4F88D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B885F8B71BFA4D7500F89335 /* IBMEmployee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B885F8D21BFA4D7600F89335 /* Build configuration list for PBXNativeTarget "IBMEmployee" */;
+			buildPhases = (
+				AFDFE8FA481B8BA8E231375F /* Check Pods Manifest.lock */,
+				B885F8B41BFA4D7500F89335 /* Sources */,
+				B885F8B51BFA4D7500F89335 /* Frameworks */,
+				B885F8B61BFA4D7500F89335 /* Resources */,
+				65CA321AC58AF9856A4DBCC6 /* Embed Pods Frameworks */,
+				D2C14AD87CEDB0B35DE703C5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBMEmployee;
+			productName = IBMEmployee;
+			productReference = B885F8B81BFA4D7500F89335 /* IBMEmployee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B885F8B01BFA4D7500F89335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eliran BenIshay";
+				TargetAttributes = {
+					B885F8B71BFA4D7500F89335 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B885F8B31BFA4D7500F89335 /* Build configuration list for PBXProject "IBMEmployee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B885F8AF1BFA4D7500F89335;
+			productRefGroup = B885F8B91BFA4D7500F89335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B885F8B71BFA4D7500F89335 /* IBMEmployee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B885F8B61BFA4D7500F89335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B885F8D61BFA4F1B00F89335 /* splash.png in Resources */,
+				B82A9CAF1BFA7A2A00C736D4 /* data.json in Resources */,
+				B82A9CA91BFA5B5D00C736D4 /* white-background.png in Resources */,
+				B885F8D81BFA510000F89335 /* login-ibm-watson.png in Resources */,
+				B885F8CE1BFA4D7600F89335 /* LaunchScreen.storyboard in Resources */,
+				B885F8CB1BFA4D7600F89335 /* Assets.xcassets in Resources */,
+				B885F8C61BFA4D7600F89335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65CA321AC58AF9856A4DBCC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFDFE8FA481B8BA8E231375F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C14AD87CEDB0B35DE703C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B885F8B41BFA4D7500F89335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B885F8C91BFA4D7600F89335 /* IBMEmployee.xcdatamodeld in Sources */,
+				B885F8C31BFA4D7600F89335 /* ViewController.m in Sources */,
+				B885F8C01BFA4D7600F89335 /* AppDelegate.m in Sources */,
+				B885F8BD1BFA4D7600F89335 /* main.m in Sources */,
+				B82A9CB21BFA911100C736D4 /* EmployeeListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B885F8C41BFA4D7600F89335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B885F8C51BFA4D7600F89335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B885F8CC1BFA4D7600F89335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B885F8CD1BFA4D7600F89335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B885F8D01BFA4D7600F89335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B885F8D11BFA4D7600F89335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B885F8D31BFA4D7600F89335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465775417B57F997B96E1FF5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBMEmployee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.eliran.ben.ishay.IBMEmployee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B885F8D41BFA4D7600F89335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4340E0D77E41E0F8D23DB47 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBMEmployee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.eliran.ben.ishay.IBMEmployee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B885F8B31BFA4D7500F89335 /* Build configuration list for PBXProject "IBMEmployee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B885F8D01BFA4D7600F89335 /* Debug */,
+				B885F8D11BFA4D7600F89335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B885F8D21BFA4D7600F89335 /* Build configuration list for PBXNativeTarget "IBMEmployee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B885F8D31BFA4D7600F89335 /* Debug */,
+				B885F8D41BFA4D7600F89335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B885F8C71BFA4D7600F89335 /* IBMEmployee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B885F8C81BFA4D7600F89335 /* IBMEmployee.xcdatamodel */,
+			);
+			currentVersion = B885F8C81BFA4D7600F89335 /* IBMEmployee.xcdatamodel */;
+			path = IBMEmployee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B885F8B01BFA4D7500F89335 /* Project object */;
+}

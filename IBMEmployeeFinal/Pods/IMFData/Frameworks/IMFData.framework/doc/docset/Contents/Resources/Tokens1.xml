@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IMFData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IMFData</TokenIdentifier>
+			<Abstract type="html">The IMFData framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IMFData/version</TokenIdentifier>
+			<Abstract type="html">The version of the IMFData framework.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)version</Declaration>
+			
+			<ReturnValue><Abstract type="html">The version of the IMFData framework.</Abstract></ReturnValue>
+			<Anchor>//api/name/version</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IMFData/deployment</TokenIdentifier>
+			<Abstract type="html">The current deployment target for this SDK.  It is Cloud</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)deployment</Declaration>
+			
+			<ReturnValue><Abstract type="html">The current deployment target for this SDK.  It is Cloud</Abstract></ReturnValue>
+			<Anchor>//api/name/deployment</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IMFData/buildDate</TokenIdentifier>
+			<Abstract type="html">The build date for this SDK.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)buildDate</Declaration>
+			
+			<ReturnValue><Abstract type="html">The build date for this SDK.</Abstract></ReturnValue>
+			<Anchor>//api/name/buildDate</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

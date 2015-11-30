@@ -1,0 +1,1 @@
+../../../../CloudantToolkit/Frameworks/CloudantToolkit.framework/Headers/CDTQueryOperation.h

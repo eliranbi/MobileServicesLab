@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CDTDataObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CDTDataObject</TokenIdentifier>
+			<Abstract type="html">The CloudantToolkit framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
+			<DeclaredIn>CDTDataObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDTDataObject/setMetadata:</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the data object.</Abstract>
+			<DeclaredIn>CDTDataObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readwrite) CDTDataObjectMetadata *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDTDataObject/metadata</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the data object.</Abstract>
+			<DeclaredIn>CDTDataObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readwrite) CDTDataObjectMetadata *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CDTDataObject/metadata</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the data object.</Abstract>
+			<DeclaredIn>CDTDataObject.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readwrite) CDTDataObjectMetadata *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="6"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

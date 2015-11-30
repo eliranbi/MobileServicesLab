@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# Copy the dependencies that you want to use in your project
+pod 'IMFCore'
+pod 'IMFGoogleAuthentication'
+pod 'IMFFacebookAuthentication'
+pod 'IMFURLProtocol'
+pod 'IMFPush'
+pod 'IMFData'
+

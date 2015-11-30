@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IMFDataManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IMFDataManager</TokenIdentifier>
+			<Abstract type="html">The IMFData framework has been deprecated.  Please migrate to https://github.com/cloudant/CDTDatastore</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/setDefaultMapper:</TokenIdentifier>
+			<Abstract type="html">The default CDTObjectMapper associated with the IMFDataManager instance.  All CDTStore objects created by this IMFDataManager will be configured to use this defaultMapper</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;CDTObjectMapper&gt; defaultMapper</Declaration>
+			
+			
+			<Anchor>//api/name/defaultMapper</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/defaultMapper</TokenIdentifier>
+			<Abstract type="html">The default CDTObjectMapper associated with the IMFDataManager instance.  All CDTStore objects created by this IMFDataManager will be configured to use this defaultMapper</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;CDTObjectMapper&gt; defaultMapper</Declaration>
+			
+			
+			<Anchor>//api/name/defaultMapper</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/IMFDataManager/defaultMapper</TokenIdentifier>
+			<Abstract type="html">The default CDTObjectMapper associated with the IMFDataManager instance.  All CDTStore objects created by this IMFDataManager will be configured to use this defaultMapper</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;CDTObjectMapper&gt; defaultMapper</Declaration>
+			
+			
+			<Anchor>//api/name/defaultMapper</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/setDatastoreManager:</TokenIdentifier>
+			<Abstract type="html">The CDTDatastoreManager associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTDatastoreManager *datastoreManager</Declaration>
+			
+			
+			<Anchor>//api/name/datastoreManager</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/datastoreManager</TokenIdentifier>
+			<Abstract type="html">The CDTDatastoreManager associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTDatastoreManager *datastoreManager</Declaration>
+			
+			
+			<Anchor>//api/name/datastoreManager</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/IMFDataManager/datastoreManager</TokenIdentifier>
+			<Abstract type="html">The CDTDatastoreManager associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTDatastoreManager *datastoreManager</Declaration>
+			
+			
+			<Anchor>//api/name/datastoreManager</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/setReplicatorFactory:</TokenIdentifier>
+			<Abstract type="html">The CDTReplicatorFactory associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTReplicatorFactory *replicatorFactory</Declaration>
+			
+			
+			<Anchor>//api/name/replicatorFactory</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/replicatorFactory</TokenIdentifier>
+			<Abstract type="html">The CDTReplicatorFactory associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTReplicatorFactory *replicatorFactory</Declaration>
+			
+			
+			<Anchor>//api/name/replicatorFactory</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/IMFDataManager/replicatorFactory</TokenIdentifier>
+			<Abstract type="html">The CDTReplicatorFactory associated with the IMFDataManager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, atomic) CDTReplicatorFactory *replicatorFactory</Declaration>
+			
+			
+			<Anchor>//api/name/replicatorFactory</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IMFDataManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Provides access to the IMFDataManager instance.  Initialization is performed on the first access.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">The sharedInstance of the IMFDataManager</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/localStore:error:</TokenIdentifier>
+			<Abstract type="html">Creates a local CDTStore.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>- (CDTStore *)localStore:(NSString *)name error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the store.</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Cause of failure or nil if successful</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The local CDTStore instance</Abstract></ReturnValue>
+			<Anchor>//api/name/localStore:error:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/remoteStore:completionHandler:</TokenIdentifier>
+			<Abstract type="html">Creates a remote CDTStore.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>- (void)remoteStore:(NSString *)name completionHandler:(void ( ^ ) ( CDTStore *store , NSError *error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the data store</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler that gets invoked when the operation is completed</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/remoteStore:completionHandler:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/pullReplicationForStore:</TokenIdentifier>
+			<Abstract type="html">Generates a CDTPullReplication object to be used to replicate with local CDTStore created with this manager</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>- (CDTPullReplication *)pullReplicationForStore:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">the name of the data store to replicate from remote to local</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the CDTPullReplication object</Abstract></ReturnValue>
+			<Anchor>//api/name/pullReplicationForStore:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/pushReplicationForStore:</TokenIdentifier>
+			<Abstract type="html">Generates a CDTPushReplication object to be used to replicate with local Store created with this manager.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>- (CDTPushReplication *)pushReplicationForStore:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">the name of the data store to replicate from local to remote</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the CDTPushReplication object</Abstract></ReturnValue>
+			<Anchor>//api/name/pushReplicationForStore:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/setCurrentUserPermissions:forStoreName:completionHander:</TokenIdentifier>
+			<Abstract type="html">Sets user permissions on a remote Cloudant database.</Abstract>
+			<DeclaredIn>IMFDataManager.h</DeclaredIn>
+			
+			<Declaration>- (void)setCurrentUserPermissions:(NSString *)access forStoreName:(NSString *)storeName completionHander:(void ( ^ ) ( BOOL success , NSError *error ))completionHandler</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>access</Name>
+					<Abstract type="html">Specifies the access group to which to add the user.  Valid values are admins or members.  For convenience, constants are provided above (DBACCESSGROUPADMINS and DBACCESSGROUPMEMBERS)</Abstract>
+				</Parameter><Parameter>
+					<Name>storeName</Name>
+					<Abstract type="html">Specifies the name of the remote Cloudant database on which to set permissions.</Abstract>
+				</Parameter><Parameter>
+					<Name>completionHandler</Name>
+					<Abstract type="html">The completion handler used to receive result</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setCurrentUserPermissions:forStoreName:completionHander:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/localStore:withEncryptionKeyProvider:error:</TokenIdentifier>
+			<Abstract type="html">Returns a local CDTStore for the given name. It also requires a key provider, the key returned by this
+provider will be used to cipher the CDTStore (attachments and extensions not included). The
+provider is always mandatory, in case you do not want to encrypt the data, you have to supply a
+CDTEncryptionKeyNilProvider instance or any other object that conforms to protocol
+CDTEncryptionKeyProvider and returns nil when the key is requested.</Abstract>
+			<DeclaredIn>IMFDataManager+EncryptionKey.h</DeclaredIn>
+			
+			<Declaration>- (CDTStore *)localStore:(NSString *)name withEncryptionKeyProvider:(id&lt;CDTEncryptionKeyProvider&gt;)provider error:(NSError **)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the store.</Abstract>
+				</Parameter><Parameter>
+					<Name>provider</Name>
+					<Abstract type="html">It returns the key to cipher the CDTStore</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Cause of failure or nil if successful</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The local CDTStore instance</Abstract></ReturnValue>
+			<Anchor>//api/name/localStore:withEncryptionKeyProvider:error:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/pullReplicationForStore:withEncryptionKeyProvider:</TokenIdentifier>
+			<Abstract type="html">Generates a CDTPullReplication object to be used to replicate with local CDTStore created with this manager</Abstract>
+			<DeclaredIn>IMFDataManager+EncryptionKey.h</DeclaredIn>
+			
+			<Declaration>- (CDTPullReplication *)pullReplicationForStore:(NSString *)name withEncryptionKeyProvider:(id&lt;CDTEncryptionKeyProvider&gt;)provider</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">the name of the data store to replicate from remote to local</Abstract>
+				</Parameter><Parameter>
+					<Name>provider</Name>
+					<Abstract type="html">It returns the key to cipher the local CDTStore</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the CDTPullReplication object</Abstract></ReturnValue>
+			<Anchor>//api/name/pullReplicationForStore:withEncryptionKeyProvider:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/IMFDataManager/pushReplicationForStore:withEncryptionKeyProvider:</TokenIdentifier>
+			<Abstract type="html">Generates a CDTPushReplication object to be used to replicate with local Store created with this manager.</Abstract>
+			<DeclaredIn>IMFDataManager+EncryptionKey.h</DeclaredIn>
+			
+			<Declaration>- (CDTPushReplication *)pushReplicationForStore:(NSString *)name withEncryptionKeyProvider:(id&lt;CDTEncryptionKeyProvider&gt;)provider</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">the name of the data store to replicate from local to remote</Abstract>
+				</Parameter><Parameter>
+					<Name>provider</Name>
+					<Abstract type="html">It returns the key to cipher the local CDTStore</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">the CDTPushReplication object</Abstract></ReturnValue>
+			<Anchor>//api/name/pushReplicationForStore:withEncryptionKeyProvider:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
